@@ -5,6 +5,11 @@ Tutorial mengenai bagaimana menguasai bahasa C++ dengan mandiri.
 
 ## Daftar Tutorial
 
+Berikut ini daftar tutorial yang dapat dipelajari.
+
+* [Development Tools dan Compilers](/content/idecompilers.md)
+* [Hello World](/content/helloworld.md)
+
 
 
 
