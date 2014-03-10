@@ -11,6 +11,16 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Hello World](/content/helloworld.md)
 
 
+Semua tutorial ini menggunakan compiler GCC g++ pada platform Linux.
+Jika ada masalah, kirim pesan kebagian [issue](https://github.com/agusk/belajarcpp/issues).
+
+Silakan ditunggu kontribusinya untuk menambahkan konten ini.
+
+Kontributor:
+
+* [Agus Kurniawan](http://blog.aguskurniawan.net/) , Fakultas Ilmu Komputer - Universitas Indonesia
+
+
 
 
 ## License
