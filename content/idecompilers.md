@@ -10,7 +10,7 @@ Ada banyak tool yang dapat digunakan untuk membuat program bahasa C atau C++. Be
 * Dev C++, [http://www.bloodshed.net/devcpp.html](http://www.bloodshed.net/devcpp.html)
 * Qt Editor, [http://qt-project.org/](http://qt-project.org/)
 
-Pada tutorial ini penulis akan menggunakan compiler **GCC**.
+Pada tutorial ini penulis akan menggunakan compiler **GCC g++**.
 
 ## GCC Compiler
 
