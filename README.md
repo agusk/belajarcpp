@@ -9,6 +9,17 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 
 * [Development Tools dan Compilers](/content/idecompilers.md)
 * [Hello World](/content/helloworld.md)
+* [Tipe Data dan Deklarasi Variabel](/content/helloworld.md)
+* [Menampilkan Text ke Layar](/content/helloworld.md)
+* [Menerima Input Keyboard](/content/helloworld.md)
+* [Operator](/content/helloworld.md)
+* [Kondisional if](/content/helloworld.md)
+* [Seleksi dengan switch](/content/helloworld.md)
+* [Pengulangan](/content/helloworld.md)
+* [break dan continue](/content/helloworld.md)
+* [Fungsi](/content/helloworld.md)
+* [Operasi Matematika](/content/helloworld.md)
+* [Bekerja dengan Koleksi](/content/helloworld.md)
 
 
 Semua tutorial ini menggunakan compiler GCC g++ pada platform Linux.
