@@ -1,39 +1,39 @@
 # Menerima Input Keyboard
 
-Kita juga dapat menerima inputan dari keyboard dengan memanfaatkan fungsi scanf.
+Kita juga dapat menerima inputan dari keyboard dengan memanfaatkan fungsi cin.
 
-Berikut ini realisasi dari penggunaan scanf ([inputdemo.c](../src/inputdemo.c)):
+Berikut ini realisasi dari penggunaan scanf ([inputdemo.cc](../src/inputdemo.cc)):
 
-	#include <stdio.h>
-
-	int main ()
-	{
-	  char name [30];
-	  int age;
-	
-	  printf ("Nama: ");
-	  scanf ("%29s",name);  
-	  printf ("Umur: ");
-	  scanf ("%d",&age);
-	  printf ("%s , Umur anda adalah %d tahun.\n",name,age);
-	  
-	  return 0;
-	}
+    #include <iostream>
+    
+    using namespace std;
+    
+    int main ()
+    {
+      char name [30];
+      int age;
+    
+      cout<<"Nama: ";
+      cin >> name;
+      cout<<"Umur: ";
+      cin >> age;
+      cout << name << ", Umur anda adalah "<< age << " tahun." << endl;
+    
+      return 0;
+    }
 
 Lakukan kompilasi
 
-	$ gcc -o inputdemo inputdemo.c
+	$ g++ -o inputdemo inputdemo.cc
 
 
 Selanjutkan lakukan eksekusi
 
 	$ ./inputdemo
 
-Contoh hasil eksekusinya:
+Contoh hasil eksekusinya dapat dilihat pada gambar dibawah ini.
 
-	$ ./inputdemo
-	Nama: agus
-	Umur: 30
-	agus , Umur anda adalah 30 tahun.
+![alt text](images/inputdemo.png "Contoh hasil eksekusi")
+
 
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
