@@ -11,7 +11,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Hello World](/content/helloworld.md)
 * [Tipe Data dan Deklarasi Variabel](/content/datatypevar.md)
 * [Menampilkan Text ke Layar](/content/helloworld.md)
-* [Menerima Input Keyboard](/content/helloworld.md)
+* [Menerima Input Keyboard](/content/menerimainput.md)
 * [Operator](/content/helloworld.md)
 * [Kondisional if](/content/helloworld.md)
 * [Seleksi dengan switch](/content/helloworld.md)
