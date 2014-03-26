@@ -10,7 +10,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Development Tools dan Compilers](/content/idecompilers.md)
 * [Hello World](/content/helloworld.md)
 * [Tipe Data dan Deklarasi Variabel](/content/datatypevar.md)
-* [Menampilkan Text ke Layar](/content/helloworld.md)
+* [Menampilkan Text ke Layar](/content/tampilinput.md)
 * [Menerima Input Keyboard](/content/menerimainput.md)
 * [Operator](/content/helloworld.md)
 * [Kondisional if](/content/helloworld.md)
