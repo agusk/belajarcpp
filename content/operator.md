@@ -23,46 +23,46 @@ Operator Aritmatika digunakan untuk melakukan hal-hal yang berhubungan dengan op
 * -- untuk melakukan pengurangan dengan angka 1
 
 
-Berikut ini contoh implementasinya ([operator.c](../src/operator.cc)):
+Berikut ini contoh implementasinya ([operator.cc](../src/operator.cc)):
 
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    int a = 25, b = 3;
-
-    int c = a + b;
-    cout<<"a+b = "<< c << endl;
-
-    c = a - b;
-    cout<<"a-b = "<< c << endl;
-
-    c = a * b;
-    cout<<"a*b = "<< c << endl;
-
-    float d = (float)a / b;
-    cout<<"a/b = "<< c << endl;
-
-    c = a % b;
-    cout<<"a%b = "<< c << endl;
-
-    a++;
-    cout<<"a++ = "<< a << endl;
-
-    ++a;
-    cout<<"++a = "<< a << endl;
-
-    b--;
-    cout<<"b-- = "<< b << endl;
-
-    --b;
-    cout<<"--b = "<< b << endl;
-
-
-	return 0;
-}
+	#include <iostream>
+	
+	using namespace std;
+	
+	int main()
+	{
+	    int a = 25, b = 3;
+	
+	    int c = a + b;
+	    cout<<"a+b = "<< c << endl;
+	
+	    c = a - b;
+	    cout<<"a-b = "<< c << endl;
+	
+	    c = a * b;
+	    cout<<"a*b = "<< c << endl;
+	
+	    float d = (float)a / b;
+	    cout<<"a/b = "<< c << endl;
+	
+	    c = a % b;
+	    cout<<"a%b = "<< c << endl;
+	
+	    a++;
+	    cout<<"a++ = "<< a << endl;
+	
+	    ++a;
+	    cout<<"++a = "<< a << endl;
+	
+	    b--;
+	    cout<<"b-- = "<< b << endl;
+	
+	    --b;
+	    cout<<"--b = "<< b << endl;
+	
+	
+		return 0;
+	}
 
 
 
@@ -89,23 +89,25 @@ Berikut ini beberapa operational relational yang dapat digunakan:
 * >= lebih besar atau sama dengan 
 * <= kurang dari atau sama dengan
 
-Untuk memudahkan pemahaman penggunaan ini, kita dapat merealisasikan dalam kode program. Contoh program ([relational.c](../src/relational.c)):
+Untuk memudahkan pemahaman penggunaan ini, kita dapat merealisasikan dalam kode program. Contoh program ([relational.cc](../src/relational.cc)):
 
 
-	#include <stdio.h>
- 
+	#include <iostream>
+	
+	using namespace std;
 	int main ()
 	{
 	   // ganti nilai ini sesuai dengan keinginan	
 	   int a = 10;
 	   int b = 15;
 	   
-	   printf("%d==%d %s \n", a,b,a==b ? "true":"false");
-	   printf("%d!=%d %s \n", a,b,a!=b ? "true":"false");
-	   printf("%d>=%d %s \n", a,b,a>=b ? "true":"false");
-	   printf("%d<=%d %s \n", a,b,a<=b ? "true":"false");
-	   printf("%d>%d %s \n", a,b,a>=b ? "true":"false");
-	   printf("%d<%d %s \n", a,b,a<b ? "true":"false");
+	   cout<< a <<"=="<<b <<"  " <<  (a==b ? "true":"false") << endl;
+	   cout<< a <<"!="<<b <<"  " <<  (a!=b ? "true":"false") << endl;
+	   cout<< a <<">="<<b <<"  " <<  (a>=b ? "true":"false") << endl;
+	   cout<< a <<"<="<<b <<"  " <<  (a<=b ? "true":"false") << endl;
+	   cout<< a <<">"<<b <<"  " <<  (a>b ? "true":"false") << endl;
+	   cout<< a <<"<"<<b <<"  " <<  (a<b ? "true":"false") << endl;
+	   
 	      
 	   return 0;
 	}
@@ -113,23 +115,16 @@ Untuk memudahkan pemahaman penggunaan ini, kita dapat merealisasikan dalam kode 
 
 Lakukan kompilasi.
 
-	$ gcc -o relational relational.c
+	$ g++ -o relational relational.cc
 
 
 Kemudian eksekusi.
 
 	$ ./relational
 
-Contoh hasil ouput.
+Contoh hasil ouput dapat dilihat pada gambar dibawah ini.
 
-	$ ./relational
-	10==15 false
-	10!=15 true
-	10>=15 false
-	10<=15 true
-	10>15 false
-	10<15 true
-
+![Contoh hasil eskekusi program operator Relational](images/relational.png "Contoh hasil eksekusi")	
 	
 
 
